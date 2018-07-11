@@ -155,10 +155,10 @@ void MainInterface::beauty() {
 	//ui->stackedWidget->setCurrentIndex(4);
 	ui->stackedWidget->show();
 	QString fileName = QFileDialog::getOpenFileName
-	(this, tr("请选择图片文件"), "C:\\Users\\cy\\Desktop", tr("type(*png *jpg)"));
+	(this, tr("请选择图片文件"), "D:\\photo", tr("type(*png *jpg)"));
 	selectedPhoto = imread(fileName.toStdString());
 	
-	file->WritePath("C:\\Users\\cy\\Desktop\\photo.txt", fileName.toStdString());
+	file->WritePath("D:\\photo.txt", fileName.toStdString());
 
 	//std::string selectedPath;
 	//file->LoadPath("C:\\Users\\cy\\Desktop\\photo.txt",selectedPath);
@@ -182,7 +182,7 @@ void MainInterface::people() {
 	ui->stackedWidget->setCurrentIndex(5);
 	ui->stackedWidget->show();
 	QString fileName = QFileDialog::getOpenFileName
-	(this, tr("请选择图片文件"), "C:\\Users\\cy\\Desktop", tr("type(*png *jpg)"));
+	(this, tr("请选择图片文件"), "D:\\Desktop", tr("type(*png *jpg)"));
 	selectedPhoto = imread(fileName.toStdString());
 	int with = ui->peoplePhoto->width();
 	int height = ui->peoplePhoto->height();
@@ -190,10 +190,10 @@ void MainInterface::people() {
 	originalpixmap = MatToQT(selectedPhoto);
 	QPixmap fitpixmap = originalpixmap.scaled(with, height, Qt::KeepAspectRatio, Qt::SmoothTransformation);
 
-	file->WritePath("C:\\Users\\cy\\Desktop\\photo.txt", fileName.toStdString());
+	file->WritePath("D:\\photo.txt", fileName.toStdString());
 
 	std::string selectedPath;
-	file->LoadPath("C:\\Users\\cy\\Desktop\\photo.txt", selectedPath);
+	file->LoadPath("D:\\photo.txt", selectedPath);
 	//cout << selectedPath << endl;
 
 	//ui->peoplePhoto->setPixmap(originalpixmap);
