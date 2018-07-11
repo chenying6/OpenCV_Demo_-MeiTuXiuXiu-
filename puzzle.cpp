@@ -1,3 +1,10 @@
+/*************************************************
+Copyright:CY
+Author:Ying Chen
+Date:2018-07-11
+Description:puzzle function
+**************************************************/
+
 #include "puzzle.h"
 #include "opencv2\opencv.hpp"
 using namespace std;

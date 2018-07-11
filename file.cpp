@@ -1,4 +1,11 @@
-﻿#include "file.h"
+﻿/*************************************************
+Copyright:CY
+Author:Ying Chen
+Date:2018-07-11
+Description:Communications between the file system and program
+**************************************************/
+
+#include "file.h"
 #include <iostream>
 #include <fstream>
 #include "opencv2\opencv.hpp"

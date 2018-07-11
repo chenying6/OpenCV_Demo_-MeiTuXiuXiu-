@@ -1,3 +1,10 @@
+/*************************************************
+Copyright:CY
+Author:Ying Chen
+Date:2018-07-11
+Description:Edit(tailor, rotation), Enhancement(brightness, contract, smoothing and sharpening), Mosaic, arbitrarily graffiti
+**************************************************/
+
 #include <iostream>
 #include "beauty.h"
 #include "mainInterface.h"

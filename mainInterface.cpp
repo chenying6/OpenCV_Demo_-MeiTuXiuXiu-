@@ -1,4 +1,11 @@
-﻿#include "mainInterface.h"
+﻿/*************************************************
+Copyright:CY
+Author:Ying Chen
+Date:2018-07-11
+Description:communication between UI and codes
+**************************************************/
+
+#include "mainInterface.h"
 #include "opencv2\opencv.hpp"
 #include "qwidget.h"
 #include "beauty.h"

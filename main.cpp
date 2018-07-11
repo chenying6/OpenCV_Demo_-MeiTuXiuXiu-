@@ -1,3 +1,10 @@
+/*************************************************
+Copyright:CY
+Author:Ying Chen
+Date:2018-07-11
+Description:main
+**************************************************/
+
 #include "mainInterface.h"
 #include <qapplication.h>
 #include <iostream>
