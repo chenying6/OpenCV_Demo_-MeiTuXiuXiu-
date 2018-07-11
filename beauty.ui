@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>571</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="mainInterface">
+    <widget class="QLabel" name="welcomeLabel">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>欢迎使用</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="peopleButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>320</y>
+       <width>221</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>人像美容</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="titleLabel">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>36</pointsize>
+       <weight>10</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 36pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#0000FF;&quot;&gt;美图秀秀&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByMouse</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="puzzleButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>440</y>
+       <width>221</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>拼图</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cameraButton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>570</y>
+       <width>61</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/67490/Pictures/照相机.jpg</normaloff>
+       <selectedoff>C:/Users/67490/Pictures/照相机.jpg</selectedoff>C:/Users/67490/Pictures/照相机.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>600</width>
+       <height>800</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="beautyButton">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>200</y>
+       <width>221</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;Arial&quot;;</string>
+     </property>
+     <property name="text">
+      <string>美化图片</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="enterBeauty">
+    <widget class="QPushButton" name="enterBeautyButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>490</y>
+       <width>361</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>进入美化图片</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="BeautySelectLabel">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>441</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backFromBeauty2Main">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="puzzlePage">
+    <widget class="QLabel" name="puzzlePicture">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>351</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="puzzleSelectButton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>525</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>请选择1—9张图片</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>570</y>
+       <width>411</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout"/>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="complete">
+    <widget class="QToolButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>140</y>
+       <width>141</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/67490/Pictures/对号.jpg</normaloff>C:/Users/67490/Pictures/对号.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backFromComplete">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>320</y>
+       <width>411</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="continueBeautyFromComplete">
+        <property name="text">
+         <string>继续美化</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ContinuePeopleFromComplete">
+        <property name="text">
+         <string>人像美容</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="mainInterfaceFromComplete">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>主页面</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>280</y>
+       <width>90</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>图片已保存</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="beautyInterface">
+    <widget class="QLabel" name="beautyPhoto">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>501</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>501</width>
+       <height>341</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>C:/Users/67490/Pictures/纯色背景.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalWidget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>500</y>
+       <width>501</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="edit">
+        <property name="styleSheet">
+         <string notr="true">font: 87 9pt &quot;Arial Black&quot;;
+font: 9pt &quot;方正兰亭超细黑简体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>编辑</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="enhance">
+        <property name="text">
+         <string>增强</string>
+        </property>
+        <property name="autoRepeatDelay">
+         <number>300</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="backgroundXuhua">
+        <property name="text">
+         <string>背景虚化</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="writeWord">
+        <property name="text">
+         <string>文字</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Handwrite">
+        <property name="text">
+         <string>涂鸦</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="mosaic">
+        <property name="baseSize">
+         <size>
+          <width>10</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>马赛克</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="backFromBeauty">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="peopleInterface">
+    <widget class="QPushButton" name="saveFromPeople">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalWidget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>500</y>
+       <width>501</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="mopi">
+        <property name="styleSheet">
+         <string notr="true">font: 87 9pt &quot;Arial Black&quot;;
+font: 9pt &quot;方正兰亭超细黑简体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>磨皮</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="white">
+        <property name="text">
+         <string>美白</string>
+        </property>
+        <property name="autoRepeatDelay">
+         <number>300</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="slim">
+        <property name="text">
+         <string>瘦脸瘦身</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="removeZhou_Hei">
+        <property name="text">
+         <string>祛痘</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="heighten">
+        <property name="baseSize">
+         <size>
+          <width>10</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>增高</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="backFromPeople">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="peoplePhoto">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>481</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="editInterface">
+    <widget class="QPushButton" name="backEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveEdit">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>10</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="editPhoto">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>411</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tailor">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>530</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>裁剪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rotate">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>530</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Agency FB</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>旋转</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="enhaceInterface">
+    <widget class="QPushButton" name="backFromEnhance">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveFromEnhance">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>10</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="enhancePhoto">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>80</y>
+       <width>411</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="liangdu">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>470</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>亮度</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="duibidu">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>520</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>对比度</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ruihua">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>570</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>锐化</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="baohedu">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>620</y>
+       <width>81</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>饱和度</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="liangduSlider">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>480</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="duibiduSlider">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>530</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="ruihuaSlider">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>580</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="baoheduSlider">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>620</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="mosaicInterface">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>510</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>画笔</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mosaicPhoto">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>401</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;图片&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CancelFromMosaic">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConfirmFromMosaic">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>10</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="mosaicSlider">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>510</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>550</y>
+       <width>451</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="mosaicbutton">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>马赛克</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="eraser">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>橡皮擦</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="handwriteInterface">
+    <widget class="QLabel" name="range">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>330</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;（0-255）&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="blue">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>250</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>蓝</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="huabi">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>520</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>画笔</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="green">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>绿</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="yijianhuanyuan">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>560</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>一键还原</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="red">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>红</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tuyaPhoto">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>80</y>
+       <width>321</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;图片&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="tuyaSlider">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>520</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConfirmFromTuya">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>10</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CancelFromTuya">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="redSlider">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>140</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="greenSlider">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>200</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="blueSlider">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>260</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tuyaButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>560</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>涂鸦</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wordInterface"/>
+   <widget class="QWidget" name="backgroundInterface">
+    <widget class="QPushButton" name="backFromBackground">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveFromBackground">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>10</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="backgroundPhoto">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>431</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QSlider" name="guangbanSlider">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>550</y>
+       <width>321</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>550</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>光斑</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="moPiInterface">
+    <widget class="QPushButton" name="backFromMoPi">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveFromMoPi">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>10</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mopiPhoto">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>441</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>570</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>强度</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="mopiSlider">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>570</y>
+       <width>331</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="mopiButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>610</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>磨皮</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="whiteInterface">
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>560</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>强度</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="whiteSlider">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>560</y>
+       <width>331</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveFromWhite">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>0</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="whitePhoto">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>441</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backFromWhite">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="meibaiButton">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>610</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>美白</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="slimInterface">
+    <widget class="QSlider" name="slimSlider">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>560</y>
+       <width>331</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backFromSlim">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="slimPhoto">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>441</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveFromSlim">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>0</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>560</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>强度</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="slimButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>610</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>瘦脸瘦身</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="removeZhou_HeiInterface"/>
+   <widget class="QWidget" name="removeHeiInterface">
+    <widget class="QLabel" name="qvdouPhoto">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>361</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>520</y>
+       <width>371</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>鼠标左键画矩形选择待祛痘/祛黑眼圈区域，右键祛痘/祛黑眼圈</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CancelFromRemove">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConfirmFromRemove">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>0</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="heightenInterface">
+    <widget class="QLabel" name="duan">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>559</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;短&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="picture">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>80</y>
+       <width>361</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="heightenSlider">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>560</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConfirmFromZenggao">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>20</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="chang">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>560</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;长&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CancelFromZenggao">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="HeightenButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>610</y>
+       <width>112</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>增高</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
